@@ -137,6 +137,33 @@ void loop() {
 
 Após todo o processo, cole o código **[cubetto.ino](https://github.com/Gabriel-Gald1n0/Cubetto/blob/main/cubbeto.ino)** no Arduino IDE e faça o upload para o Arduino.
 
+---
+
+## Como Conectar o Módulo Bluetooth HC-05 ao Celular
+
+### 1. Ativar Bluetooth no Celular
+   - Ligue o Bluetooth no seu celular e coloque o módulo HC-05 no modo de emparelhamento. O LED do módulo deve piscar rapidamente, indicando que está pronto para ser emparelhado.
+   
+### 2. Emparelhar o Módulo HC-05 com o Celular
+   - No celular, acesse as **configurações de Bluetooth** e procure por novos dispositivos. O HC-05 deve aparecer com o nome "HC-05".
+   - Toque no nome do dispositivo para emparelhá-lo. O código padrão de emparelhamento é geralmente `1234` ou `0000`.
+   - Uma vez emparelhado, o LED do HC-05 começará a piscar mais lentamente.
+
+### 3. Utilizar o **Serial Bluetooth Terminal**
+   - **Baixar o aplicativo**: Baixe o **Serial Bluetooth Terminal** da Play Store (Android).
+   - **Conectar ao Módulo Bluetooth**:
+     1. Abra o aplicativo Serial Bluetooth Terminal.
+     2. Vá até o menu de conexão (ícone de plug ou "Connect").
+     3. Selecione Devices e em seguida em Bluetooth Classic
+     4. Selecione o dispositivo "HC-05" ou "SLAVE" para iniciar a conexão. 
+     5. Se a conexão for bem-sucedida, o status mudará para "Connected".
+   
+### 4. Enviar Comandos pelo Celular
+   - Agora, você pode enviar comandos via Serial Bluetooth Terminal. Digite os comandos como `F` ou `C` na interface e pressione "Enter" para enviá-los ao Arduino.
+   - O Arduino responderá de acordo com os dados recebidos (ex.: `Anda Pra Frente`, `Chama a Funcao`).
+
+---
+
 ### Referências
   - https://mundoprojetado.com.br/modulo-bluetooth-comunicando-c-arduino-parte-1/
   - https://curtocircuito.com.br/blog/Categoria%20Arduino/arduino-e-hc-05:-configuracao-master-slave?srsltid=AfmBOoqZg7FiMEvhTRS00qUJ-MzHnxT7qktB44yJb6QaZSCikvEI-H8p
