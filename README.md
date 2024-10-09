@@ -135,4 +135,4 @@ void loop() {
 4. Envie `AT+ROLE=0` para configurar como Escravo.
 5. Envie `AT+CMODE=1` para se conectar a qualquer dispositivo.
 
-Após todo o processo, cole o código **cubetto.ino** no Arduino IDE e faça o upload para o Arduino.
+Após todo o processo, cole o código **[cubetto.ino](https://github.com/Gabriel-Gald1n0/Cubetto/blob/main/cubbeto.ino)** no Arduino IDE e faça o upload para o Arduino.
