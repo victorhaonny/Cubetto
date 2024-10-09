@@ -8,7 +8,7 @@
 
 ## Softwares Necessários
   - [Arduino IDE](https://www.arduino.cc/en/software)
-  - Serial Bluetooth Terminal **Utilizar no celular, baixe na PlayStore**
+  - Serial Bluetooth Terminal **(Utilizar no celular, baixe na PlayStore)**
 
 ## Configurações do Arduino IDE
 - Selecione o Arduino e Porta
@@ -65,16 +65,33 @@ void loop() {
 1. **Verificar Conexão**
     - Comando: `AT`
     - Resposta esperada: `OK`
-   
-2. **Verificar e Configurar o Baud Rate**
+
+2. **Configurações de Nome e PIN**
+- **Verificar o nome atual do módulo**  
+  Comando: `AT+NAME`  
+  Resposta esperada: `+NAME:HC-05`
+
+- **Alterar o nome do módulo Bluetooth**  
+  Comando: `AT+NAME=NomeDesejado`  
+  Resposta esperada: `OK`
+
+- **Verificar o PIN de emparelhamento**  
+  Comando: `AT+PSWD`  
+  Resposta esperada: `+PSWD:1234` (Exemplo de PIN padrão)
+
+- **Alterar o PIN de emparelhamento (Não necessário alterar se a senha for 1234)**  
+  Comando: `AT+PSWD=5678` (Substitua `5678` pelo novo PIN desejado)  
+  Resposta esperada: `OK`
+
+3. **Verificar e Configurar o Baud Rate**
     - **Verificar Baud Rate Atual**  
-      Comando: `AT+UART?`  
+      Comando: `AT+UART`  
       Resposta esperada: `+UART:<baud>,<stop_bits>,<parity>`  
     - **Configurar Baud Rate para 38400**  
-      Comando: `AT+UART=38400,0,0`  
+      Comando: `AT+UART=38400,1,0`  
       Resposta esperada: `OK`
 
-3. **Configurar Modo de Operação**
+4. **Configurar Modo de Operação**
     - **Módulo no Modo Escravo**  
       Comando: `AT+ROLE=0`  
       Resposta esperada: `OK`
@@ -82,7 +99,7 @@ void loop() {
       Comando: `AT+ROLE=1`  
       Resposta esperada: `OK`
 
-4. **Configuração de Modo de Conexão (CMODE)**
+5. **Configuração de Modo de Conexão (CMODE)**
     - **Verificar o Valor Atual**  
       Comando: `AT+CMODE`  
       Resposta esperada: `+CMODE:1`
@@ -93,7 +110,7 @@ void loop() {
       Comando: `AT+CMODE=0`  
       Resposta esperada: `OK`
 
-5. **Emparelhamento com Outro Dispositivo Bluetooth**
+6. **Emparelhamento com Outro Dispositivo Bluetooth**
     - **Iniciar Pesquisa de Dispositivos Bluetooth (Modo Mestre)**  
       Comando: `AT+INQ`  
       Resposta esperada: Lista de endereços de dispositivos.
