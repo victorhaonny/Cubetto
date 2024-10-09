@@ -30,7 +30,7 @@ Para o módulo HC-05, siga estes passos para entrar no modo AT:
 ---
 
 ## Código para Comunicação Serial com Bluetooth
-
+**Cole o codigo no Arduino IDE e depois Copile, após isso poderá usar os comandos AT no Serial Monitor**
 ```cpp
 #include "SoftwareSerial.h"
 
