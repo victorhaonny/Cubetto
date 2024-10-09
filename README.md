@@ -136,3 +136,9 @@ void loop() {
 5. Envie `AT+CMODE=1` para se conectar a qualquer dispositivo.
 
 Após todo o processo, cole o código **[cubetto.ino](https://github.com/Gabriel-Gald1n0/Cubetto/blob/main/cubbeto.ino)** no Arduino IDE e faça o upload para o Arduino.
+
+### Referências
+  - https://mundoprojetado.com.br/modulo-bluetooth-comunicando-c-arduino-parte-1/
+  - https://curtocircuito.com.br/blog/Categoria%20Arduino/arduino-e-hc-05:-configuracao-master-slave?srsltid=AfmBOoqZg7FiMEvhTRS00qUJ-MzHnxT7qktB44yJb6QaZSCikvEI-H8p
+  - https://www.aranacorp.com/pt/arduino-e-o-modulo-bluetooth-hc-05/
+  - https://www.youtube.com/watch?v=uTRkEuBVr6E 
