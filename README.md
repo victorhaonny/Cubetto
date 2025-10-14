@@ -1,21 +1,26 @@
-# Cubetto 🤖
+# Cubetto Mapeamento 🗂️ (2025)
 
 ## Montagem do Arduino
 
-![image](https://github.com/user-attachments/assets/9a615668-cbff-4605-bbc0-f5ea874ace50)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9a615668-cbff-4605-bbc0-f5ea874ace50" width="300" height="200">
+  <img src="https://github.com/user-attachments/assets/6056decb-53ad-4f05-86f7-192a844a66d3" width="350" height="230">
+</p>
 
-![image](https://github.com/user-attachments/assets/6056decb-53ad-4f05-86f7-192a844a66d3)
+<p align="center"><b>Clique nas imagens para melhor visualização</b></p>
 
 ## Softwares Necessários
-  - [Arduino IDE](https://www.arduino.cc/en/software)
-  - Serial Bluetooth Terminal **(Utilizar no celular, baixe na PlayStore)**
+- [Arduino IDE](https://www.arduino.cc/en/software)
+- Serial Bluetooth Terminal **(Utilizar no celular, baixe na PlayStore)**
 
 ## Configurações do Arduino IDE
-- Selecione o Arduino e Porta
+
+- Selecione o Arduino e Porta  
 ![image](https://github.com/user-attachments/assets/a384b525-e998-411a-8187-69109b4ef4ec)
 
-- Coloque essas configurações no monitor serial.
+- Coloque essas configurações no monitor serial  
 ![image](https://github.com/user-attachments/assets/79371662-345a-4caa-8e9c-a80d34b732cb)
+
 
 ---
 
