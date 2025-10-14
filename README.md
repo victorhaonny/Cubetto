@@ -7,6 +7,9 @@
   - [Configuração](#configuração-1)
 ---
 # Carrinho 1
+
+<img width="743" height="554" alt="Captura de tela 2025-10-14 033712" src="https://github.com/user-attachments/assets/210e6c57-8e62-44f5-8339-ec8bed4f0bad" />
+
 ## Montagem do Arduino
 
 <p align="center">
@@ -182,3 +185,5 @@ Após todo o processo, cole o código **[cubetto.ino](https://github.com/Gabriel
   - https://www.aranacorp.com/pt/arduino-e-o-modulo-bluetooth-hc-05/
   - https://www.youtube.com/watch?v=uTRkEuBVr6E
 # Carrinho 2
+
+<img width="690" height="545" alt="Captura de tela 2025-10-14 033648" src="https://github.com/user-attachments/assets/64e59afa-f6a1-459f-9a53-4103aaf3cc36" />
